@@ -8,6 +8,11 @@ print_r($files1);
 print_r($files2);
 ?>
 <?php
+<<<<<<< HEAD
+echo 's2'; //test
+echo 'pottiagivaem';
+=======
 echo 's2'; //test main branch
+>>>>>>> master
 phpinfo();
 ?>
