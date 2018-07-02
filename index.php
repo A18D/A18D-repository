@@ -8,6 +8,6 @@ print_r($files1);
 print_r($files2);
 ?>
 <?php
-echo 's2'; //test
+echo 's2'; //test main branch
 phpinfo();
 ?>
