@@ -9,5 +9,6 @@ print_r($files2);
 ?>
 <?php
 echo 's2'; //test
+echo 'pottiagivaem';
 phpinfo();
 ?>
