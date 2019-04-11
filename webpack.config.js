@@ -1,5 +1,4 @@
 var path = require('path');
-
 var config = {
     context: path.join(__dirname, 'js'),
     entry: [
@@ -21,7 +20,7 @@ var config = {
     devServer: {
         proxy: {
             '/': {
-                target: 'http://localhost:7000',
+                target: 'http://s1.localhost/PHPChernovik/webpack-hmr-php/web',
                 secure: false
             }
         }

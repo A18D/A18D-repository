@@ -1,0 +1,11 @@
+ServerSignature Off
+AddDefaultCharset UTF-8
+ErrorDocument 404 /PHPChernovik/webpack-hmr-php/web/error.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^reg?$ /PHPChernovik/webpack-hmr-php/web/reg.php [NC,L]
+    RewriteRule ^auth?$ /PHPChernovik/webpack-hmr-php/web/auth.php [NC,L]
+    RewriteRule ^article?$ /PHPChernovik/webpack-hmr-php/web/article.php [NC,L]
+</IfModule>

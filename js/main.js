@@ -1,8 +1,9 @@
-require('./css/main.css');
+require('../css/bootstrap.css');
+require('../css/styles.css');
 
-console.log('coucou');
-console.log(module, module.hot);
+
 if (module.hot) {
-    console.log('ok');
     module.hot.accept();
 }
+
+

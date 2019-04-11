@@ -1,7 +1,7 @@
 {
-  "name": "hmr-webpack",
+  "name": "eslint",
   "version": "1.0.0",
-  "description": "",
+  "description": "hot module reload for php",
   "main": "webpack.config.js",
   "dependencies": {
     "css-loader": "^0.23.1",
@@ -9,10 +9,29 @@
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "1.16.4"
+  },
   "scripts": {
-    "start": "webpack-dev-server --content-base=www --hot --inline --watch"
+    "start": "webpack-dev-server --content-base=www --hot --inline --watch",
+    "prettier": "prettier"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loicbourg/webpack-hmr-php.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loicbourg/webpack-hmr-php/issues"
+  },
+  "homepage": "https://github.com/loicbourg/webpack-hmr-php#readme",
+  "lint-staged": {
+    "*.{js, jsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
 }
