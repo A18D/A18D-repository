@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # webpack-hmr-php
 hot module reload for php
 
@@ -21,6 +20,3 @@ npm start
 now if you go on http://localhost:8080 you see the word coucou in orange
 
 if you update the color in main.css, the change will be done without having to refresh the page.
-=======
-# A18D-repository
->>>>>>> 13f86245446ec78ee29792efa969c3104ab3c5e2

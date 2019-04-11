@@ -1,2 +1,0 @@
-print3;
-alert("Test git'a");
